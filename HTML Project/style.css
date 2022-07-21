@@ -1,9 +1,41 @@
+body {
+    background-color: blanchedalmond;
+}
 div {
-    width: 200px;
+    width: 500px;
     height: 200px;
     background-color: pink;
+    border: solid rgb(0, 0, 0);
+    border-radius: 15px;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-evenly;
 }
 .box {
     background-color:rgb(148, 255, 255) ;
     border-radius: 100px;
+}
+.child {
+    background-color: rgb(247, 186, 186);
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    display:flex;
+    float: right;
+    flex-wrap: wrap;
+    justify-content:center ;
+    justify-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+#one {
+    background-color: rgba(0, 0, 0, 0.2);
+    width:100px;
+    height:100px;
+    position:center;
 }
