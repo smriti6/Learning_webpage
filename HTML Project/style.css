@@ -1,8 +1,10 @@
 body {
     background-color: blanchedalmond;
+    display:flex;
+    flex-direction:column;
 }
 div {
-    width: 500px;
+    width: 100%;
     height: 200px;
     background-color: pink;
     border: solid rgb(0, 0, 0);
@@ -38,4 +40,32 @@ img {
     width:100px;
     height:100px;
     position:center;
+}
+.test {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: 0ch;
+    margin: 10px;
+}
+section {
+    width:100%;
+    height: 100px;
+    background-color: aqua;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sh {
+    box-shadow: 10px 15px 4px rgb(234, 208, 213);
+}
+#main{
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    border: 0ch;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 7px 10px rgb(181, 117, 241);
 }
