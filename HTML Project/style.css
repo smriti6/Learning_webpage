@@ -69,3 +69,25 @@ section {
     border-radius: 10px;
     box-shadow: 10px 7px 10px rgb(181, 117, 241);
 }
+button {
+    width: 100px;
+    border: 0px;
+    padding: 0px 20px;
+    font-size: 20px;
+    background-color: rgb(62, 196, 196);
+    background-image:linear-gradient(to top left,
+    rgb(249, 253, 247),
+    rgb(73, 116, 82) 30%,
+    rgb(0, 238, 32)
+    );
+    /* box-shadow: 10px 10px; */
+    /* text-shadow:10px 5px 5px; */
+}
+button:hover{
+    background-color: blue;
+    background-image: none;
+}
+button:active {
+    box-shadow: insert -2px -2px 3px rgba(0, 0, 0, 0.2);
+    background-image: none;
+}
