@@ -1,94 +1,42 @@
-body {
-    background-color: blanchedalmond;
-    display:flex;
-    flex-direction:column;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-}
-div {
+nav {
     width: 100%;
-    height: 200px;
-    background-color: pink;
-    border: solid rgb(0, 0, 0);
-    border-radius: 15px;
-    display: flex;
-    flex-direction:row-reverse;
-    justify-content:space-evenly;
-}
-.box {
-    background-color:rgb(148, 255, 255) ;
-    border-radius: 100px;
-}
-.child {
-    background-color: rgb(247, 186, 186);
-    width: 200px;
-    height: 100px;
-    border-radius: 20px;
-    display:flex;
-    float: right;
-    flex-wrap: wrap;
-    justify-content:center ;
-    justify-items: center;
-    margin: 20px;
-    padding: 10px;
-}
-
-#one {
-    background-color: rgba(0, 0, 0, 0.2);
-    width:100px;
-    height:100px;
-    position:center;
-}
-.test {
-    width: 50px;
     height: 50px;
-    border-radius: 15px;
-    border: 0ch;
-    margin: 10px;
-}
-section {
-    width:100%;
-    height: 100px;
-    background-color: aqua;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    background-color: aquamarine;
+    display: flex;
     justify-content: space-between;
 }
-#sh {
-    box-shadow: 10px 15px 4px rgb(234, 208, 213);
-}
-#main{
-    width: 30px;
+.logo {
     height: 30px;
-    background-color: blueviolet;
-    border: 0ch;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 10px 7px 10px rgb(181, 117, 241);
+    margin: 15px 30px;
 }
-button {
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 12px;
+}
+li{
+    margin: 15px 5px;
+}
+a {
+    text-decoration: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
     width: 100px;
-    border: 0px;
-    padding: 0px 20px;
-    font-size: 20px;
-    background-color: rgb(62, 196, 196);
-    background-image:linear-gradient(to top left,
-    rgb(249, 253, 247),
-    rgb(73, 116, 82) 30%,
-    rgb(0, 238, 32)
-    );
-    /* box-shadow: 10px 10px; */
-    /* text-shadow:10px 5px 5px; */
+    height: 100px;
+    background-image: repeating-linear-gradient(red,blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-button:hover{
-    background-color: blue;
-    background-image: none;
-}
-button:active {
-    box-shadow: insert -2px -2px 3px rgba(0, 0, 0, 0.2);
-    background-image: none;
-}
-
-#logo {
-
+.about-me {
+    width: 100%;
+    height: 500px;
+    background-color:beige;
 }
