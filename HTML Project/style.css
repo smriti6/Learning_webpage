@@ -2,6 +2,7 @@ body {
     background-color: blanchedalmond;
     display:flex;
     flex-direction:column;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 div {
     width: 100%;
@@ -30,11 +31,7 @@ div {
     margin: 20px;
     padding: 10px;
 }
-img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-}
+
 #one {
     background-color: rgba(0, 0, 0, 0.2);
     width:100px;
@@ -90,4 +87,8 @@ button:hover{
 button:active {
     box-shadow: insert -2px -2px 3px rgba(0, 0, 0, 0.2);
     background-image: none;
+}
+
+#logo {
+
 }
