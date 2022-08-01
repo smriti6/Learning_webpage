@@ -31,27 +31,41 @@ a:active {
 body {
     display: flex;
     flex-direction: column;
+    background-color: aliceblue;
 }
 
 section {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    /* height: 100px; */
     background-image: repeating-linear-gradient(red,blue);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
+.about-me {
+    width: 300px;
+    height: 300px;
+    background-color: beige;
+    margin: 5px;
+
+}
+.second{
+    width: 300px;
+    height: 300px;
+    background-color: beige;
+    margin: 5px;
+}
 .hero {
     width: 100%;
     /* height: 500px; */
-    background-color:beige;
+    /* background-color:beige; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .hero-info {
-    background-color: aqua;
+    /* background-color: aqua; */
     /* width: 300px;
     height: 250px; */
     margin: 30px;
@@ -62,12 +76,13 @@ section {
     width: 30px;
     height: 5px;
     border-radius: 2.5px;
+    margin: 30px 0 30px 0;
 }
 .hero-img {
-    background-color: rgb(12, 52, 52);
+    /* background-color: rgb(12, 52, 52); */
     width: 300px;
-    height: 250px;
-    margin: 5px;
+    height: 300px;
+    margin: 30px;
 }
 .avtar {
     width: 100px;
