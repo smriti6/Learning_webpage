@@ -121,6 +121,9 @@ button:active{
     margin: 20px;
 }
 
+form {
+    margin: 0 0 40px 0;
+}
 .input-sec {
     margin: 10px 0;
     display: flex;
@@ -129,4 +132,26 @@ button:active{
     display: flex;
     flex-direction:column;
     margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+@media only screen and (max-width:600px) {
+    .hero-info {
+        max-width: 500px;
+    }
+    .hero-img {
+        visibility: hidden;
+        height: 0px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    footer {
+        background-color: blueviolet;
+    }
 }
