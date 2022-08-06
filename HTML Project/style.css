@@ -120,3 +120,13 @@ button:active{
     background-color: aqua;
     margin: 20px;
 }
+
+.input-sec {
+    margin: 10px 0;
+    display: flex;
+}
+.input-group {
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+}
