@@ -31,7 +31,7 @@ a:active {
 body {
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: rgb(241, 249, 255);
 }
 
 section {
@@ -43,6 +43,7 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     padding: 40px 0 0 0;
+    background-color: rgb(235, 239, 255);
 }
 .about-me {
     width: 300px;
@@ -51,6 +52,7 @@ section {
     margin: 30px;
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(232, 232, 134);
 
 }
 .info{
@@ -67,6 +69,7 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: rgb(203, 252, 252);
 }
 .hero-info {
     /* background-color: aqua; */
@@ -152,6 +155,6 @@ footer {
 
 @media only screen and (min-width:600px) {
     footer {
-        background-color: blueviolet;
+        background-color: rgb(233, 209, 255);
     }
 }
