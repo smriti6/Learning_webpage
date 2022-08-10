@@ -51,3 +51,25 @@ function sendText() {
 }
 
 sendText();
+
+//if else
+
+if(2>3){
+    console.log('true');
+}
+else {
+    console.log('false');
+
+}
+
+//elef 
+a=9;
+if(a=='sam'){
+    console.log(true);
+}
+else if(a==2){
+    console.log('Its is a number');
+}
+else{
+    console.log('wrong input');
+}
