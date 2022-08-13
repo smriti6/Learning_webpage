@@ -73,3 +73,15 @@ else if(a==2){
 else{
     console.log('wrong input');
 }
+
+const fruit =['apple','banana','mango'];
+
+if(fruit.includes('apple')){
+    console.log('Apple is included');
+}
+else if(fruit.includes('mango') && fruit.includes('banana')){
+    console.log('fruit contain more then 2 element');
+}
+else {
+    console.log('what ?');
+}
