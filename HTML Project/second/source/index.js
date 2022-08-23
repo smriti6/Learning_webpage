@@ -85,3 +85,34 @@ else if(fruit.includes('mango') && fruit.includes('banana')){
 else {
     console.log('what ?');
 }
+
+//ternary operater
+
+let isGame=false;
+
+isGame ?console.log('Sorry you lost'):console.log('Carry on playing ');
+
+//Fizz Buzz chalange
+
+console.log('FIZZ BUZZ Challange');
+let number=1;
+
+for(let i=number;i<=20;i++){
+    if(i%15==0){
+        console.log('fizz buzz');
+    }
+    else if(i%5==0){
+        console.log('buzz');
+    }
+    else if(i%3==0){
+        console.log('fizz');
+    }
+    else{
+        console.log(i);
+    }
+}
+
+let book =['table','books','cat','dog','man'];
+for(let i=0;i<book.length;i++){
+    console.log(book[i]);
+}
