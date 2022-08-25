@@ -6,12 +6,14 @@ body {
     height: 100vh;
     background-color: #ffee66;
     background-size: cover;
+    overflow: hidden;
 }
 h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 14px;
     text-align: center;
+    color: #ffff;
 }
 .clock {
     display: flex;
@@ -19,6 +21,7 @@ h1 {
 }
 .clock div {
     margin: 5px;
+    position: relative;
 }
 .clock span {
     display: flex;
@@ -39,4 +42,12 @@ h1 {
     letter-spacing: 2px;
     background-color: rgb(7, 244, 244);
     opacity: 0.8;
+}
+.clock #am {
+    bottom: 0;
+    position:absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(223, 166, 91);
 }
