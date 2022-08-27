@@ -113,6 +113,61 @@ for(let i=number;i<=20;i++){
 }
 
 let book =['table','books','cat','dog','man'];
+let c =0;
+console.log(c);
 for(let i=0;i<book.length;i++){
     console.log(book[i]);
+    if(book[i]=='dog'){
+        c+=1;
+        console.log(c);
+    }
+}
+
+//object 
+
+const user={
+    name:'sam',
+    age:11,
+    fruit:'apple',
+    animal:true
+}
+
+console.log(user);
+console.log(user.name);
+console.log(user.age);
+
+//array object
+
+const users =[
+    {
+        account_name:'wow@',
+        followers:1000,
+        following:false
+    },
+    {
+        account_name:'mom',
+        followers:1000,
+        following:true
+    },
+    {
+        account_name:'moon',
+        followers:230000,
+        following:true
+    },
+    {
+        account_name:'sun',
+        followers:12000,
+        following:false
+    }
+]
+
+console.log(users);
+console.log(users[0]);
+console.log(users[0].account_name);
+console.log('for loop')
+
+for(let i=0;i<users.length;i++){
+    if(users[i].following==true){
+        console.log('hi user '+users[i].account_name);
+    }
 }
