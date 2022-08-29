@@ -171,3 +171,24 @@ for(let i=0;i<users.length;i++){
         console.log('hi user '+users[i].account_name);
     }
 }
+
+// function 
+
+function sendReminder(nam,time) {
+    console.log('Hi '+ nam +' your meeting is at '+ time);
+}
+
+sendReminder('sam',12);
+sendReminder('cat',5)
+sendReminder('mat',7)
+
+let fname='sam';
+let coun =1;
+function setAlarm () {
+    console.log(fname+' wake up this is your '+coun +' Alarm !!!!!!!!!');
+    coun+=1;
+}
+setAlarm();
+setAlarm();
+setAlarm();
+setAlarm();
