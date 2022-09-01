@@ -1,10 +1,15 @@
+body {
+    background-color: aquamarine;
+}
 .face {
+    position: absolute;
     background-color: bisque;
     height: 150px ;
     width: 150px;
     border-radius: 70px;
     margin-left: 90px;
     margin-top: 90px;
+    transition: all;
 }
 .eyeContaner {
     display: flex;
