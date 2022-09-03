@@ -20,3 +20,8 @@ while(c<10) {
     console.log(c+' Wow ');
     c++;
 }
+
+//
+const bob='sam uncle';
+
+console.log(' " '+bob+' " '+' varible length : '+bob.length);
