@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiki - Wikipedia</title>
+
+
+    <style>
+        ol {
+            counter-reset: item;
+        }
+        li {
+            display:block;
+        }
+        li:before {
+            content: counters(item,".")" ";
+            counter-increment: item;
+        }
+    </style>
+
+
+
 </head>
 <body>
     <h1>Blockchain</h1>
@@ -16,6 +33,68 @@
     <p>Blockchains are typically managed by a peer-to-peer (P2P) computer network for use as a public distributed ledger, where nodes collectively adhere to a consensus algorithm protocol to add and validate new transaction blocks. Although blockchain records are not unalterable, since blockchain forks are possible, blockchains may be considered secure by design and exemplify a distributed computing system with high Byzantine fault tolerance.<sup>[5]</sup></p>
     <p>The blockchain was created by a person (or group of people) using the name (or pseudonym) Satoshi Nakamoto in 2008<sup>[6]</sup> to serve as the public distributed ledger for bitcoin cryptocurrency transactions, based on previous work by Stuart Haber, W. Scott Stornetta, and Dave Bayer.<sup>[7]</sup> The identity of Satoshi Nakamoto remains unknown to date. The implementation of the blockchain within bitcoin made it the first digital currency to solve the double-spending problem without the need of a trusted authority or central server. The bitcoin design has inspired other applications<sup>[3][2]</sup> and blockchains that are readable by the public and are widely used by cryptocurrencies. The blockchain may be considered a type of payment rail.<sup>[8]</sup></p>
     <p>Private blockchains have been proposed for business use. Computerworld called the marketing of such privatized blockchains without a proper security model "snake oil";<sup>[9]</sup> however, others have argued that permissioned blockchains, if carefully designed, may be more decentralized and therefore more secure in practice than permissionless ones.<sup>[4][10]</sup></p>
+
+
+    <b>Contents</b>
+    <ol>
+        <li>History</li>
+        <li>Structure & Design
+            <ol>
+                <li>Blocks
+                    <ol>
+                        <li>Block time</li>
+                        <li>Hard forks</li>
+                    </ol>
+                </li>
+                <li>Decentralization</li>
+                <li>Openness
+                    <ol>
+                        <li>Permissionless (public) blockchain</li>
+                        <li>Permissionless (private) blockchain</li>
+                        <li>Blockchain analysis</li>
+                    </ol>
+                </li>
+                <li>Standardisation</li>
+                <li>Centralization Blockchain</li>
+            </ol>
+        </li>
+        <li>Types
+            <ol>
+                <li>Public blockchains</li>
+                <li>Private blockchains</li>
+                <li>Hybrid blockchains</li>
+                <li>Sidechains</li>
+            </ol>
+        </li>
+        <li>Users
+            <ol>
+                <li>Cryptocurrencies</li>
+                <li>Smart contracts</li>
+                <li>Financial services</li>
+                <li>Games</li>
+                <li>Supply chain</li>
+                <li>Domain names</li>
+                <li>Other users</li>
+            </ol>
+        </li>
+        <li>Blockchain interoperability </li>
+        <li>Energy consumption concern  </li>
+        <li>Academic research
+            <ol>
+                <li>Adoption decision</li>
+                <li>Collaboration</li>
+                <li>Blockchain and internal audit</li>
+                <li>Journals</li>
+            </ol>
+        </li>
+        <li>See also</li>   
+        <li>References</li>
+        <li>Further reading</li>
+        <li>External links</li>
+    </ol>
+
+
+
 
 
     <h2>History</h2>
@@ -40,9 +119,19 @@
         <li>application (smart contracts/decentralized applications, if applicable)</li>
     </ul>
 
-    <h2 style="font-size:20px">Blocks</h2>
+    <h2 style="font-size:18px">Blocks</h2>
     <p>Blocks hold batches of valid transactions that are hashed and encoded into a Merkle tree.[3] Each block includes the cryptographic hash of the prior block in the blockchain, linking the two. The linked blocks form a chain.[3] This iterative process confirms the integrity of the previous block, all the way back to the initial block, which is known as the genesis block (Block 0).[27][28] To assure the integrity of a block and the data contained in it, the block is usually digitally signed.[29]</p>
 
+
+    <h2>See also</h2>
+    <hr>
+    <ul>
+        <li>Changelog – a record of all notable changes made to a project</li>
+        <li>Checklist – an informational aid used to reduce failure</li>
+        <li>Economics of digitization</li>
+        <li>Privacy and blockchain</li>
+        <li>Version control – a record of all changes (mostly of software project) in a form of a graph</li>
+    </ul>
     
 </body>
 </html>
