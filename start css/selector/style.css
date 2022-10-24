@@ -1,12 +1,27 @@
+/* * {
+    font-family: monospace;
+} */
 /* element selector */
 body {
     font-size: 20px;
+    font-family: fantasy;
 }
 /* id selector */
 #id_sel {
     color: rgb(255, 16, 147);
 }
+/* nested selector */
+
+#id_sel>p {
+    color: rgb(254, 42, 42);
+}
 /* class selector */
 .class_sel {
     color: rgb(33, 203, 21);
+}
+
+/* sudo selector */
+
+p:hover {
+    color: purple;
 }
