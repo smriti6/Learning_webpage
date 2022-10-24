@@ -1,0 +1,12 @@
+/* element selector */
+body {
+    font-size: 20px;
+}
+/* id selector */
+#id_sel {
+    color: rgb(255, 16, 147);
+}
+/* class selector */
+.class_sel {
+    color: rgb(33, 203, 21);
+}
