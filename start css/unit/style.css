@@ -1,0 +1,28 @@
+body {
+    border: 3px solid;
+}
+
+header {
+    border: 3px greenyellow solid;
+}
+main {
+    border: 3px red solid;
+    /* % take that percantage from body  it take % relate with body*/
+    width: 50%;
+}
+section {
+    border: 5px blue dashed;
+    /* absolute to the screen */
+    width: 50vmin;
+    /* height: 20vh; */
+}
+h1 {
+    /* fixed valuse will not change even if usere use big font in browser */
+    font-size: 40px;
+}
+p {
+    /* relative to root em  */
+    /* font-size: 2rem; */
+    /* change size according browser size */
+    font-size: 3vw;
+}
