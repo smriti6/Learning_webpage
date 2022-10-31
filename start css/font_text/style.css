@@ -1,0 +1,29 @@
+h1 {
+
+    color: orange;
+    background-color: rgb(255, 220, 154);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2 {
+    color: transparent;
+    text-shadow: 4px 4px 3px black;
+}
+.one {
+    color: transparent;
+    letter-spacing: 1ch;
+    text-shadow: 4px 4px 1px red, 8px 8px 2px blue;
+}
+
+.two {
+    font-weight: 800;
+    font-style: italic;
+    font-variant: small-caps;
+}
+a {
+
+    text-decoration-style: wavy;
+    text-decoration-color: black;
+    text-decoration-thickness: 1.5px;
+}
